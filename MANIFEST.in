@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customization_vpplv1 *.css
+recursive-include customization_vpplv1 *.csv
+recursive-include customization_vpplv1 *.html
+recursive-include customization_vpplv1 *.ico
+recursive-include customization_vpplv1 *.js
+recursive-include customization_vpplv1 *.json
+recursive-include customization_vpplv1 *.md
+recursive-include customization_vpplv1 *.png
+recursive-include customization_vpplv1 *.py
+recursive-include customization_vpplv1 *.svg
+recursive-include customization_vpplv1 *.txt
+recursive-exclude customization_vpplv1 *.pyc
